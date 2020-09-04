@@ -1,0 +1,157 @@
+/******
+Name: Layout
+-- Author: Thang Vuong
+-- Date: 14/08/2020
+-- Modified: Thang Vuong - 23/08/2020
+******/
+html, body {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Calibri', sans-serif;
+  color: #4E4E4E;
+}
+img{
+  max-width:100%;
+  height:auto;
+  overflow: none;
+}
+div > a:active,  div > a:visited, div > a {
+  text-decoration: none;
+  color: #0000ff;
+  font-weight: 550;
+}
+div > a:hover {
+  color: #000044;
+}
+/*--------------*
+STANDARD VIEW
+*--------------*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.center-wrap {
+  margin: auto;
+  grid-column: span 12;
+  min-width: 50%;
+}
+.wrap {
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+
+.space-wrap {
+  grid-column: 2 / span 10;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+.call-1 {
+  grid-column: span 1;
+}
+.call-2 {
+  grid-column: span 2;
+}
+.call-3 {
+  grid-column: span 3;
+}
+.call-4 {
+  grid-column: span 4;
+}
+.call-5 {
+  grid-column: span 5;
+}
+.call-6 {
+  grid-column: span 6;
+}
+.call-7 {
+  grid-column: span 7;
+}
+.call-8 {
+  grid-column: span 8;
+}
+.call-9 {
+  grid-column: span 9;
+}
+.call-10 {
+  grid-column: span 10;
+}
+.call-11 {
+  grid-column: span 11;
+}
+.call-12 {
+  grid-column: span 12;
+}
+
+/*--------------*
+MOBILE VIEW
+*--------------*/
+@media (max-width: 600px) {
+  .wrap {
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+
+  .space-wrap {
+    grid-column: 2 / span 10;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4px;
+  }
+  .call-1,
+  .call-2,
+  .call-3,
+  .call-4,
+  .call-5,
+  .call-6,
+  .call-7,
+  .call-8,
+  .call-9,
+  .call-10,
+  .call-11,
+  .call-12 {
+    grid-column: span 1;
+  }
+}
+
+/*--------------*
+TABLET VIEW
+*--------------*/
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .wrap {
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+  }
+
+  .space-wrap {
+    grid-column: 2 / span 10;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4px;
+  }
+  .call-1,
+  .call-2,
+  .call-3,
+  .call-4,
+  .call-5,
+  .call-6,
+  .call-7,
+  .call-8,
+  .call-9 {
+    grid-column: span 3;
+  }
+  .call-10,
+  .call-11,
+  .call-12 {
+    grid-column: span 6;
+  }
+}

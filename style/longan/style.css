@@ -1,0 +1,10 @@
+@import 'parts/layout.css';
+@import 'parts/font.css';
+@import 'parts/text.css';
+@import 'parts/color.css';
+@import 'parts/size.css';
+@import 'parts/panel.css';
+@import 'parts/space.css';
+@import 'parts/place.css';
+@import 'parts/form.css';
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');

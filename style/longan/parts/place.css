@@ -1,0 +1,104 @@
+/******
+Name: Place
+-- Author: Thang Vuong
+-- Date: 15/08/2020
+-- Modified: Thang Vuong - 23/08/2020
+******/
+.place-top,
+.place-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.place-top {
+  top: 0;
+}
+.place-bottom {
+  bottom: 0;
+}
+.place-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.place-top-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.place-top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.place-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.place-bottom-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.place-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.place-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%);
+}
+.place-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+.place-top-middle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+}
+.place-bottom-middle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+}
+.place-container:hover .place-show {
+  display: block;
+}
+.place-container:hover span.place-hover {
+  display: inline-block;
+}
+.place-hide {
+  display: none;
+}
+.place-position {
+  position: absolute;
+}
+.on-left {
+  float: left;
+}
+.on-right {
+  float: right;
+}

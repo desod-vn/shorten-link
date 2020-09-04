@@ -1,0 +1,19 @@
+/******
+Name: Text
+-- Author: Thang Vuong
+-- Date: 14/08/2020
+-- Modified: Thang Vuong - 14/08/2020
+******/
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-justify {text-align: justify;}
+
+.text-over {text-decoration: overline;}
+.text-through {text-decoration: line-through;}
+.text-under{text-decoration: underline;}
+.text-all {text-decoration: underline line-through overline;}
+.text-shadow {text-shadow: 2px 2px 5px #444;}
+.text-up {text-transform: uppercase;}
+.text-low {text-transform: lowercase;}
+.text-cap {text-transform: capitalize;}

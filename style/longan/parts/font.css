@@ -1,0 +1,74 @@
+/******
+Name: Font
+-- Author: Thang Vuong
+-- Date: 14/08/2020
+-- Modified: Thang Vuong - 17/08/2020
+******/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 5px 0;
+  font-weight: 350;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #000;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.75rem;
+}
+h5 {
+  font-size: 1.25;
+}
+h6 {
+  font-size: 1rem;
+}
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 3px 0;
+  padding: 2px;
+  font-weight: 400;
+}
+
+.title-1 {
+  font-size: 3.666rem;
+}
+.title-2 {
+  font-size: 3.333rem;
+}
+.title-3 {
+  font-size: 3rem;
+}
+.title-4 {
+  font-size: 2.666rem;
+}
+.title-5 {
+  font-size: 2.333rem;
+}
+.title-6 {
+  font-size: 2rem;
+}
+
+.title-from {
+  font-variant: small-caps;
+  font-variant-caps: all-small-caps;
+}
+.strong {
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+}

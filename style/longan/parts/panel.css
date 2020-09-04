@@ -1,0 +1,84 @@
+/******
+Name: Panel
+-- Author: Thang Vuong
+-- Date: 15/08/2020
+-- Modified: Thang Vuong - 15/08/2020
+******/
+.panel {
+  position: relative;
+}
+.panel-circle {
+  border-radius: 50% ;
+}
+.panel-round-s {
+  border-radius: 2px ;
+}
+.panel-round,
+.panel-round-m {
+  border-radius: 4px ;
+}
+.panel-round-l {
+  border-radius: 8px ;
+}
+.panel-round-xl {
+  border-radius: 16px ;
+}
+.panel-round-xxl {
+  border-radius: 32px ;
+}
+
+.border-0 {
+  border: 0 ;
+}
+.border {
+  border: 1px solid #ccc ;
+}
+.border-top {
+  border-top: 1px solid #ccc ;
+}
+.border-bottom {
+  border-bottom: 1px solid #ccc ;
+}
+.border-left {
+  border-left: 1px solid #ccc ;
+}
+.border-right {
+  border-right: 1px solid #ccc ;
+}
+.topbar {
+  border-top: 6px solid #ccc ;
+}
+.bottombar {
+  border-bottom: 6px solid #ccc ;
+}
+.leftbar {
+  border-left: 6px solid #ccc ;
+}
+.rightbar {
+  border-right: 6px solid #ccc ;
+}
+
+.section,
+.code {
+  margin-top: 16px ;
+  margin-bottom: 16px ;
+}
+.button {
+  border: 1px solid transparent;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button:hover {
+  color:#e9e9e9 ;
+  opacity: 0.8;
+  border: 1px solid transparent ;
+  background-color:#4E4E4E;
+}
